@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: nodeapp
     spec:
       containers:
-      - image: quay.io/karthik_jk/nodeapp
+      - image: quay.io/karthik_jk/nodeapp@sha256:de438d83a4ae41bb6daeb40f95ec7db243cd2a9dc2b5e7bcfe120151730fa9b6
         imagePullPolicy: Always
         name: container-image
         resources: {}
